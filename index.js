@@ -1,26 +1,30 @@
-const http = require("http")
-const fs = require("fs")
+//Basics
+// var x = 20;
+// const z = 100;
+// console.log(z)
+// console.log(x);
+// z = 120
 
-const port = 4000
-const hostname = "localhost"
-const home = fs.readFileSync("./index.html","utf-8")
-const about = fs.readFileSync("./about.html","utf-8")
 
-const server = http.createServer((req,res)=>{
-    if(req.url === "/"){
-        return res.end(home)
-    }
-    if(req.url === "/about"){
-        return res.end(about)
-    }
-    if(req.url === "/contact"){
-        return res.end("contact us")
-    }
-    else{
-        return res.end("404 page not found")
-    }
-})
+// if else
 
-server.listen(4000,"localhost",()=>{
-    console.log(`server at http://${hostname}:${port}/`)
-})
+// var x = 20;
+// if(x === "20"){
+//     console.log("ok")
+// }
+// else{
+//     console.log("not equal")
+// }
+
+
+//for loop
+// var x = "20";
+// for(let i = 1 ; i < x ; i++){
+//     console.log(i)
+// }
+
+//array
+// var a = [1,2,5,235,235,235]
+// console.log(a)
+const app = require('./app')
+console.log(app.x)

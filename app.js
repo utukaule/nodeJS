@@ -1,2 +1,4 @@
-const a = require("./index")
-console.log(a);
+module.exports= {
+    x: 10,
+    y:20
+}

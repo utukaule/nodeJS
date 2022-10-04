@@ -1,0 +1,21 @@
+1. Node is not a language.
+2. This is run time enviroment or (server enviroment)
+3. Node js can connect with database
+4. Syntex is similar to js
+5. Node is free open sourse(OS)
+6. Node js use chrome's V8 engine to excute code
+
+
+Importanr nots
+1. js connot connect to server bacause js runs in browser means client side not with server side
+(js runs on client side)
+2. node js runs on server side so it can connect with server
+(node runs on server side)
+
+
+what developer make in nodejs?
+->  1. developer make API with nodejs.
+    2. so we can connect server with client.
+    3. node can make API for web, android, ios etc.
+    4. with node js we can also make website. 
+    
