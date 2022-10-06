@@ -1,0 +1,36 @@
+1)  What is package.json?
+->  Package.json keep the details of your code like project name, package names and it's versions.
+
+2) npm init?
+->  initialise 
+
+3) npm ?
+->  node package manager
+
+4) What package.json keeps?
+->  It will keep all project related details 
+    eg. name, description, dependencies, repo, scrits 
+
+5)  What package-lock.json keeps?
+->  package-lock.json keeps all details related to packages.
+
+6)  Is node js single threded or multi threded ?
+->  Node is single threded which means it will run one command at a time not multiple command at a time
+
+7)  What happens if the node_modules folder is deleted?
+->  We have all dependencies in package.json
+    after npm install it will again install all the packages which are in package.json.
+
+8)  Write way to push code on github ?
+->  We dont have to push node module on github (its heavy and lot of files and no use for other developer on another pc)
+    solution: .gitignore we have to create file with this name
+               ->   inside .gitignore file type ->  /node_modules
+
+9)  Node js is async or sync language ?
+->  node js is async language
+    eg. 1. Run first scrit
+        2. Run second scrit(complex data)
+            ---- it will not wait to finish 2nd scrit ----
+        3. Run third scrit
+        4. Continue
+        
