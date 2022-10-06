@@ -1,0 +1,2 @@
+what http module do?
+->  In node js http module handles the req and res from the server.
