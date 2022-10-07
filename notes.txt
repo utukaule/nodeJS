@@ -1,0 +1,3 @@
+1)  What is buffer ?
+->  buffer means temporary memory location to do some operation 
+->  To perform some operation node js required some temporary  memory which is known as buffer memory. //imp
