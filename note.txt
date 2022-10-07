@@ -1,0 +1,3 @@
+what is global and non-global module?
+->  For global we dont have to import it we can directly use like (console.log)
+->  For non-global we have to import it like fs, http etc.
