@@ -1,0 +1,3 @@
+Async and Sync programming language ?
+->  In Sync operation takes are preformed one at a time
+->  In Async, second task do not wait to finish first task
