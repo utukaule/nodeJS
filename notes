@@ -1,0 +1,31 @@
+1) call stack?
+--> Call stack is acting like a registry for functions in program,
+    which means it will keep a track of multiple functions which called one after another.
+    when the execution of function is done then it will left the stack.
+
+2) Node API?
+--> The things which are not from JS are registered in Node API (like things which are written in c & c++).
+    and whenever we needed then we inherite it from Node API (eg. setTimeout( ()=>{}) ).
+    
+    basically, this are the librarires we call when we needed.
+    
+    NOTE:- (things which are not core like not from js it will register in NODE API).
+
+3) Callback queue ?
+--> When C++ funcitons are in node API and when they want to excute they required call stack empty
+    and once the call stack is empty.
+    
+    Now looking at the node API, look which function has to run first and then,
+    function in node API will go to callback queue
+    and then one by one it will send to the call stack for execution.
+    
+    Funcitons in node api go to callback queue but pushed to call stack, after the main funciton of call stack is excuted (means the call stack is empty), then functions from node API --> callback queue --> call stack will go one by one.
+    
+    NOTE:- node API compulsory required call stack empty.
+ 
+4) Example 
+--> Go to index.js for example.
+
+5) Interview Question ?
+->  Explain node js architecture
+    ->  Explain point 1,2,3,4(for example)
