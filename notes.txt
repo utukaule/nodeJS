@@ -1,0 +1,17 @@
+
+1)  What is middleware ?
+->  1. When we want to filter req or res
+    2. We check the user is loged or logout.
+    3. It is also used for check authentication of user
+
+2)  How to make middleware ?
+
+3)  How to apply middleware on routes ?
+
+4)  Types of middleware ?
+->  1. Application-level middleware
+    2. Router-level middleware
+    3. Error-handling middleware
+    4. Third-party middleware
+
+5)  Interview Q
