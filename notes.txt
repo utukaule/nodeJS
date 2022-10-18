@@ -1,0 +1,19 @@
+1)  what is use?
+2)  what is the use of express.static?
+3)  what is __dirname ?
+4)  what is path.join ?
+
+
+Interview Q
+1)  use of path module?
+->  It is used to access your projects required file.
+    eg. const path = require("path")
+        const reqFolder = path.join(__dirname, 'public')
+        (look your output by doing console.log(reqFolder)).
+
+2)  What is the use of static method ?
+->  It is used to load the websites static pages or it loads static content of website like about, help etc.
+    eg. We created static file about.html in public folder.
+        app.use(express.static(public)) //reffer to Q1 for variable name
+
+3)   
