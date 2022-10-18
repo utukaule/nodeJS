@@ -1,0 +1,7 @@
+Interview Q
+
+1) How can retrive value from parameter in node js?
+->  req.query.parameter_name (syntax)
+    eg. http://localhost:5000/?name=utkarsh 
+    ->  req.query.name
+        ->  utkarsh
