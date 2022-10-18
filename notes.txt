@@ -1,0 +1,5 @@
+Interview Q
+1)   What is template engine?
+->  Teplate Engine is used to make DYNAMIC PAGES.
+
+2)  
