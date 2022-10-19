@@ -1,0 +1,69 @@
+1)  Different between MongoDB and mySQL
+2)  What is MongoDB?
+->  1.  MongoDB is noSQL database
+    2.  The data stored in a collection (table)
+    3.  Collection don't have row and columns
+    4.  Data is stored in the form of object
+
+3)  noSQL?
+->  It means noSQL dont have structure.
+
+4)  Collection?
+->  Collection dont have rows and columns. It is stored in the form of objects. 
+
+5)  When we noSQL?
+->  We use noSQL when we know that data given by the user is not structured. 
+
+4)  MongoDB basic commands
+    
+    1.  Create database
+    ->  use database_name
+    
+    2.  Show database
+    ->  show dbs
+    
+    3.  Create Collection?
+    ->  db.createCollection("Collection_name")
+    
+    4.  Delete Collection?
+    ->  db.Collection_name.drop()
+    
+    5.  Delete Database?
+    ->  db.dropDatabase()
+
+CRUD Operations in MongoDB
+    
+    1.  How to insert data collection?
+    ->  db.collection_name.insertOne({create obj here})
+    ->  eg.
+        ->  db.products.insertOne({
+            name:"note 7 pro",
+            brand:'realme',
+            price:10000,
+            category:"mobiles"
+            })
+    
+    2.  How to check inserted data?
+    ->  db.collection_name.find()
+    ->  eg.
+        ->  db.products.find()
+
+    3.  How to updata data?
+    ->  db.collection_name.updateOne({find_product},{$set:{updata_new_information}})
+                                            ^               ^
+                                            |               |
+                              (product previous data)(Product updated data) 
+    ->  eg.
+        ->  db.products.updataOne({name:'apple'},{$set:{price:100000}})                
+
+    4.  how to delete data?
+    ->  db.collection_name.deleteOne({brand:"apple"})
+    ->  eg.
+        ->  db.products.deleteOne({brand:"apple"})
+
+    Interview Question
+
+    1.  What is curd operation?
+        NOTE:-  learn commands properly.
+
+ 
