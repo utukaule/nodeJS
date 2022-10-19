@@ -1,0 +1,10 @@
+Interview Questions 
+
+1)  What is route level middleware ?
+->  The middleware which is applicable for single or multiple route
+
+2)  Application level middleware ?
+->  Which is applicable for by default on everyone.
+
+3)  Differenc between Route level and Application level middleware ?
+->  Reffer the above answers.
