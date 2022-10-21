@@ -1,0 +1,6 @@
+Read data from mongoDB
+
+1)  Read data from mongoDB
+2)  Make file for db connection
+3)  Handle promise
+4)  Interview Q
