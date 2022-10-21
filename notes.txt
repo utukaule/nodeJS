@@ -1,3 +1,7 @@
 1)  Connect mongoDB with Node js
 2)  Show data from mongoDB
+
 3)  Interview Q
+    1. Can we connect to databases?
+    ->  Yes we can connnect.
+    
