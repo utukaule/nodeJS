@@ -4,3 +4,6 @@ Read data from mongoDB
 2)  Make file for db connection
 3)  Handle promise
 4)  Interview Q
+    1. What is promise?
+    ->  When we are heavy operations like connecting db sometimes it takes time 
+        so to handle this heavy operations we required promise   
