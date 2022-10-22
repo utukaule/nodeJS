@@ -1,0 +1,9 @@
+1)  Interview Q
+    1.  How will you insert multiple data?
+    ->  Syntax:-    
+        ->  db.insertMany()
+
+    2.  How can we find particular data from database? or how to where in mongodb?
+    ->  We will use syntax:-   
+        ->  data.find({name:"nord"}).toArray()
+
