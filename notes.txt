@@ -1,0 +1,9 @@
+1.  Make new file for api
+2.  Inport and use mongo config
+3.  Make api for get data
+4.  test with postman
+5.  Interview question
+
+    1.  Can we pass body in get method?
+    ->  No.
+    
