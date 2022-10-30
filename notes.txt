@@ -1,0 +1,5 @@
+1.  Make POST method for api
+2.  Send data from postman
+3.  GET data in node js by request
+4.  Write code for insert data in mongoDB
+5.  Interview question
