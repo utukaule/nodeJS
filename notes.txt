@@ -1,0 +1,10 @@
+1.  Make PUT method for API
+2.  Send data from postman
+3.  Handle data in node js by request
+4.  Write code for update data from mongodb
+5.  Interview Question
+    1. Why we put API?
+    ->  PUT API is used to updata data which is in database
+    2.  Can we use POST insted of PUT?
+    ->  Yes we can use POST insted of PUT but not recomended
+    ->  because it is a standart procedure to use PUT to updata data form database
