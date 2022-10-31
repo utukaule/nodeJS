@@ -1,0 +1,5 @@
+1.  Make delete method for API
+2.  Send data form postman
+3.  Handle data in node js by request
+4.  Write code for delete data in MondoDB
+5.  Interview Q
