@@ -1,0 +1,4 @@
+1.  Install multer npm package
+2.  Make router for upload file
+3.  Write code for upload file
+4.  Interview question
