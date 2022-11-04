@@ -1,0 +1,5 @@
+1.  What is OS modules?
+    -> OS is operating system module
+        It is used to takek out information about system like RAM, Memory, HOST name  
+2.  Important functions of OS module
+3.  Interview Q
