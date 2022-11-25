@@ -1,0 +1,18 @@
+1.  What is Mongoose ?
+    ->  To connect node js to mongodb we use mongoose package.
+
+2.  Diff. between mongoose and mongodb package ?
+    ->  Mongoose gives more hold on data when user is submiting data
+    ->  eg.
+        ->  if we want to add price then it should be Number() not in string so here mongoose is used for validation.
+    ->  Fild control
+           
+3.  What is Schemas ?
+    ->  Schemas are used to validate database fields.
+    ->  We have to define fields inside this.
+
+4.  What is Model ?
+    ->  Model is used to connect node js with mongodb
+    ->  Model uses schemas to connect node with mongodb
+
+5.  Connect node js and mongodb with mongoose
